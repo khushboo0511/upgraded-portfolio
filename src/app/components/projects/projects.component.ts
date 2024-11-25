@@ -10,25 +10,25 @@ import { ProjectItemsComponent } from "../project-items/project-items.component"
 export class ProjectsComponent {
   projects = [
     {
-      img: 'assets/blog.png',
-      title: 'Blog App',
-      tech: 'Django',
-      link: 'https://github.com/sumanth2k1/DjangoBlog',
+      img: '#',
+      title: 'MERN Estate App',
+      tech: 'MERN',
+      link: 'https://github.com/khushboo0511/MERN-Estate',
     },
     {
-      img: 'assets/ecom.png',
-      title: 'Ecommerce App',
+      img: '#',
+      title: 'Food Ordering App',
       tech: 'React.js',
-      link: 'https://github.com/sumanth2k1/Ecommerce-web-shop',
+      link: 'https://github.com/khushboo0511/Food-App',
     },
     {
-      img: 'assets/newsly.png',
-      title: 'News App',
-      tech: 'React.js',
-      link: 'https://github.com/sumanth2k1/NewsLy',
+      img: '#',
+      title: 'Kryptoconnect App',
+      tech: 'React.js, ChakraUI',
+      link: 'https://github.com/khushboo0511/Cryptocurrency-app',
     },
     {
-      img: 'assets/portfolio.png',
+      img: '#',
       title: 'Personal Portfolio',
       tech: 'React.js',
       link: '',

@@ -1,0 +1,10 @@
+/* Optional: Add extra styles for hover effects or customization */
+.timeline-marker {
+    background-color: #1d4ed8; /* Tailwind's blue-700 */
+  }
+  
+  .skill-card:hover {
+    background-color: #f9fafb; /* Tailwind's gray-50 */
+    transition: background-color 0.2s;
+  }
+  

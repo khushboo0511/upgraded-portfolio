@@ -1,0 +1,41 @@
+<div class="max-w-4xl mx-auto p-6">
+    <!-- Education Section -->
+    <h1 class="text-3xl font-bold text-center mb-6 text-gray-800">Education</h1>
+    <div class="relative border-l-2 border-gray-300 pl-6">
+      <!-- Timeline Item -->
+      <div
+        class="mb-8 flex items-start gap-4 pl-6"
+        *ngFor="let education of educationData"
+      >
+        <!-- Year Badge -->
+        <div class="absolute -left-5 w-15 h-15 bg-blue-900 text-white text-sm flex items-center justify-center font-bold rounded-full shadow-md p-3 gap-3 mr-3">
+          {{ education.year }}
+        </div>
+        <!-- Details -->
+        <div>
+          <h2 class="text-lg font-semibold text-blue-900">
+            {{ education.title }}
+            <span *ngIf="education.duration" class="text-sm font-light text-gray-700">
+              ({{ education.duration }})
+            </span>
+          </h2>
+          <p class="text-sm text-gray-600 mt-1">{{ education.details }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10">
+        <h1 class="text-3xl font-bold text-center mb-6">Skills</h1>
+        <div class="grid md:grid-cols-2 gap-5">
+          <!-- Skill Card -->
+          <div
+            class="border rounded-lg p-4 shadow-md bg-gray-200"
+            *ngFor="let skill of skillsData"
+          >
+            <h2 class="text-md font-semibold">{{ skill.title }}</h2>
+            <p class="text-sm text-gray-600">{{ skill.details }}</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  

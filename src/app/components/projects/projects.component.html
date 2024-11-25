@@ -1,0 +1,24 @@
+<div id="projects" class="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <h1 class="text-4xl font-bold text-center">Projects</h1>
+    <p class="text-center py-8">
+      These are a few of the projects I created throuhhout my academic career, using the various technologies and skills I acquired over the period of time. Browse through my
+      <a
+        href="https://github.com/khushboo0511"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-blue-600 underline"
+        >GitHub</a
+      >
+      for more such exciting projects.
+    </p>
+    <div class="grid sm:grid-cols-2 gap-12">
+      <app-project-items
+        *ngFor="let project of projects"
+        [img]="project.img"
+        [title]="project.title"
+        [tech]="project.tech"
+        [link]="project.link"
+      ></app-project-items>
+    </div>
+  </div>
+  

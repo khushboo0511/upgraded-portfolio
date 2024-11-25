@@ -1,0 +1,14 @@
+#contact {
+    h1 {
+      color: #001b5e;
+      margin-bottom: 1rem;
+    }
+  
+    button {
+      &:hover {
+        background-color: #003a8c;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+  
